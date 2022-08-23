@@ -6,10 +6,10 @@ import lightMarketingVars from '../vars/marketing_light'
 import lightAppVars from '../vars/app_light'
 
 const scale = {
-  black: '#1b1f24',
+  black: '#25283d',
   white: '#ffffff',
   gray: ['#f6f8fa', '#eaeef2', '#d0d7de', '#afb8c1', '#8c959f', '#6e7781', '#57606a', '#424a53', '#32383f', '#24292f'],
-  blue: ['#ddf4ff', '#b6e3ff', '#80ccff', '#54aeff', '#218bff', '#0969da', '#0550ae', '#033d8b', '#0a3069', '#002155'],
+  blue: ['#7A89AB', '#66779E', '#526591', '#3D5384', '#334a7d', '#304677', '#2B3F6A', '#26385E', '#213051', '#1C2945'],
   green: ['#dafbe1', '#aceebb', '#6fdd8b', '#4ac26b', '#2da44e', '#1a7f37', '#116329', '#044f1e', '#003d16', '#002d11'],
   yellow: [
     '#fff8c5',
@@ -49,18 +49,7 @@ const scale = {
     '#2e1461'
   ],
   pink: ['#ffeff7', '#ffd3eb', '#ffadda', '#ff80c8', '#e85aad', '#bf3989', '#99286e', '#772057', '#611347', '#4d0336'],
-  coral: [
-    '#fff0eb',
-    '#ffd6cc',
-    '#ffb4a1',
-    '#fd8c73',
-    '#ec6547',
-    '#c4432b',
-    '#9e2f1c',
-    '#801f0f',
-    '#691105',
-    '#510901'
-  ]
+  coral: ['#fff0eb', '#ffd6cc', '#ffb4a1', '#fd8c73', '#ec6547', '#c4432b', '#9e2f1c', '#801f0f', '#691105', '#510901']
 }
 
 // const exceptions = {
@@ -68,4 +57,6 @@ const scale = {
 //   Otherwise the exceptions will also propagate to all other extended themes.
 // }
 
-export default merge(lightDeprecatedVars, lightAppVars, lightMarketingVars, lightComponentVars, lightGlobalVars, {scale})
+export default merge(lightDeprecatedVars, lightAppVars, lightMarketingVars, lightComponentVars, lightGlobalVars, {
+  scale
+})

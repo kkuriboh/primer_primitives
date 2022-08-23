@@ -45,24 +45,13 @@ const scale = {
     '#352160'
   ],
   pink: ['#ffd7eb', '#ffb3d8', '#fc8dc7', '#e275ad', '#c96198', '#ae4c82', '#983b6e', '#7e325a', '#69264a', '#551639'],
-  coral: [
-    '#ffdacf',
-    '#ffb9a5',
-    '#f79981',
-    '#ec775c',
-    '#de5b41',
-    '#c2442d',
-    '#a93524',
-    '#8d291b',
-    '#771d13',
-    '#5d1008'
-  ]
+  coral: ['#ffdacf', '#ffb9a5', '#f79981', '#ec775c', '#de5b41', '#c2442d', '#a93524', '#8d291b', '#771d13', '#5d1008']
 }
 
 const exceptions = {
   diffBlob: {
     expander: {
-      icon: get('fg.default'),
+      icon: get('fg.default')
     }
   }
 }

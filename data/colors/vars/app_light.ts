@@ -174,7 +174,7 @@ export default {
     }
   },
   project: {
-    headerBg: get('scale.gray.9'),
+    headerBg: get('scale.black'),
     sidebarBg: get('scale.white'),
     gradientIn: get('scale.white'),
     gradientOut: alpha(get('scale.white'), 0)

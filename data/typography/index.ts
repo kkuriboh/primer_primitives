@@ -1,6 +1,6 @@
 export default {
   normal: {
-    fontSize: ['12px', '14px', '16px', '20px', '24px', '32px', '40px', '48px'],
+    fontSize: ['0.75rem', '0.875rem', '1rem', '1.25rem', '1.5rem', '2rem', '2.5rem', '3rem'],
     lineHeight: {
       condensedUltra: 1,
       condensed: 1.25,

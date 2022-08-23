@@ -25,7 +25,7 @@ export default {
   },
   header: {
     text: alpha(get('scale.white'), 0.7),
-    bg: get('scale.gray.9'),
+    bg: get('scale.black'),
     divider: get('scale.gray.6'),
     logo: get('scale.white')
   },
@@ -178,14 +178,14 @@ export default {
       bg: get('scale.blue.0'),
       hoverBg: get('scale.blue.1'),
       activeBg: get('scale.blue.2'),
-      border: get('scale.blue.3'),
+      border: get('scale.blue.3')
     }
   },
 
   switchKnob: {
     checked: {
       bg: get('scale.blue.5'),
-      disabledBg: get('scale.gray.5'),
+      disabledBg: get('scale.gray.5')
     }
   },
 
@@ -194,16 +194,16 @@ export default {
 
     button: {
       hover: {
-        bg: alpha(get('scale.gray.3'), 0.2),
+        bg: alpha(get('scale.gray.3'), 0.2)
       },
 
       active: {
-        bg: alpha(get('scale.gray.3'), 0.4),
+        bg: alpha(get('scale.gray.3'), 0.4)
       },
 
       selected: {
-        border: get('scale.gray.5'),
-      },
-    },
-  },
+        border: get('scale.gray.5')
+      }
+    }
+  }
 }
