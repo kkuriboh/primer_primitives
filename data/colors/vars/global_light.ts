@@ -3,8 +3,8 @@ import {alpha, get, lighten} from '../../../src/utils'
 export default {
   fg: {
     default: get('scale.gray.9'),
-    muted: get('scale.gray.6'),
-    subtle: get('scale.gray.5'),
+    muted: get('scale.gray.8'),
+    subtle: get('scale.gray.7'),
     onEmphasis: get('scale.white')
   },
   canvas: {

@@ -30,10 +30,10 @@
     "build:tokens": "node -e \"require('./build')._init()\"",
     "prebuild": "rm -rf dist",
     "prebuild:tokens": "rm -rf tokens-v2-private",
-    "prepack": "yarn build && yarn build:tokens",
+    "prepack": "npm run build && npm run build:tokens",
     "release": "changeset publish",
-    "watch": "ls data/**/*.scss script/**/*.ts | entr -s 'yarn build'",
-	"all": "yarn prebuild && yarn prebuild:tokens && yarn build && yarn build:tokens"
+    "watch": "ls data/**/*.scss script/**/*.ts | entr -s 'npm run build'",
+	"all": "npm run prebuild && npm run prebuild:tokens && npm run build && npm run build:tokens"
   },
   "prettier": "@github/prettier-config",
   "devDependencies": {

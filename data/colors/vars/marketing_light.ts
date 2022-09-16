@@ -18,7 +18,8 @@ const mktg = {
 export default {
   mktg: {
     btn: {
-      bg: '#1b1f23',
+      // bg: '#0b070e',
+      bg: '#110c19',
       shadow: {
         outline: 'rgb(0 0 0 / 15%) 0 0 0 1px inset',
         focus: 'rgb(0 0 0 / 15%) 0 0 0 4px',
